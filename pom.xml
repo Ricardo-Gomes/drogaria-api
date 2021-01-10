@@ -10,15 +10,17 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
 	<groupId>com</groupId>
 	<artifactId>drogaria-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>drogaria-api</name>
 	<description>Sistema Drogaria</description>
-
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
@@ -46,7 +48,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>42.2.1</version>
+			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
